@@ -94,3 +94,56 @@ nav ul .fas {
     grid-template-columns: repeat(7,1fr);
     margin: 20px 0;
 }
+/* Popular gadget Collection styles */
+.section-header h2 {
+    text-align: center;
+    font-size:30px;
+    text-transform: capitalize;
+}
+.gadgets{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+}
+.gadget{
+    margin-top:50px;
+    width: 329px;
+    height: 476px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.gadget img {
+    width: 300px;
+    height: 256px;
+    display: block;
+    margin: 20px auto  0 auto;
+}
+.gadget-info{
+    padding: 20px;
+}
+.gadget h3{
+    color: #18191F;
+    margin-bottom: 10px;
+}
+.gadget h4{
+    color: #000;
+    margin-bottom: 10px;
+}
+.gadget .icons {
+    color: gold;
+    margin-bottom: 10px;
+}
+.gadget p{
+    font-size: 16px;
+    color: #787885;
+}
+section a{
+    text-decoration: none;
+    margin-top: 30px ;
+    margin-right: 10px;
+    float: right;
+    color: #E02C6D;
+    font-weight: bold;
+    font-size: 16px;
+}
