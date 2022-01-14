@@ -147,3 +147,33 @@ section a{
     font-weight: bold;
     font-size: 16px;
 }
+/* services section style */
+.services{
+    display: flex;
+    justify-content: space-between;
+}
+.service{
+    width: 300px;
+    height:250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:50px;
+}
+.service i {
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.service h3{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #18191F;
+}
+.service p{
+    margin-top: 10px;
+    text-align: center;
+    color: #3A3A3A;
+    font-size: 16px;
+}
