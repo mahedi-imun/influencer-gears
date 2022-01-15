@@ -192,6 +192,11 @@ footer .footer-info{
     margin: auto;
     text-align: center;
 }
+footer .footer-info i{
+    font-size:25px;
+    padding: 5px;
+    margin-top: 20px;
+}
 footer h2 {
     margin-bottom: 10px;
 }
