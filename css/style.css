@@ -208,7 +208,7 @@ footer h2 {
         align-items: center;
     }
     .logos{
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(5,1fr);
     }
     .gadgets{
         grid-template-columns: 1fr 1fr;
@@ -232,7 +232,8 @@ footer h2 {
         justify-content: center;
     }
     .logos{
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(4,1fr);
+        grid-row-gap: 40px;
     }
     .gadgets{
         grid-template-columns: 1fr;
