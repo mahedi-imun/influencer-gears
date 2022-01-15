@@ -85,9 +85,22 @@ nav ul .fas {
     margin-top:2em;
     background-image:url(../images/Circle-design.svg);
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size:contain; 
+    background-position: center;
+    animation: animation 10s infinite;
+    border-radius:10%;
 }
-
+@keyframes animation{
+    0%{
+        background-color:#E02C6D;
+    }
+    50%{
+        background-color:transparent;
+    }
+    100%{
+        background-color:#fff;
+       }
+}
 /* logos section styles */
 .logos {
     display: grid;
@@ -118,6 +131,7 @@ nav ul .fas {
     height: 256px;
     display: block;
     margin: 20px auto  0 auto;
+    
 }
 .gadget-info{
     padding: 20px;
